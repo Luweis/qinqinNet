@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/06 面向对象和列表/index.js" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/detail/01基础.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/detail/02绑定产品-封装.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/detail/02绑定产品.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/detail/04产品方法和事件.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/detail/05 作业 更改需求购物车超过三个显示更多.js" charset="GBK" />
+  </component>
+</project>

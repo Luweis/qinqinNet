@@ -1,0 +1,89 @@
+h4, h5, h6,
+h1, h2, h3 {
+    margin-top: 0;
+}
+
+ul, ol {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+html, body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+    background: #fff;
+}
+
+body a {
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+}
+
+.index-banner {
+    background: url(../images/banner.png) no-repeat center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    min-height: 1100px;
+}
+
+.sales {
+    background: url(./images/banner.png) no-repeat center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 300px;
+}
+
+.nav {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.title {
+    display: inline-block;
+    font-size: 22px;
+}
+
+.left-bar {
+    position: relative;
+    display: inline-block;
+    float: right;
+
+}
+
+.mune {
+    display: inline-block;
+}
+
+.goodscar {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.goodscar > a {
+    text-decoration: none;
+}
+
+.goodscar span {
+    position: absolute;
+    display: inline-block;
+    line-height: 15px;
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 100%;
+    font-size: 8px;
+     top: 0px;
+    right: -15px;
+
+}

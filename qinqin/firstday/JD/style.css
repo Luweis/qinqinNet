@@ -1,0 +1,354 @@
+
+h4, h5, h6,
+h1, h2, h3 {
+    margin-top: 0;
+}
+
+ul, ol {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+html, body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+    background: #fff;
+}
+
+body a {
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -o-transition: 0.5s all;
+}
+
+.sales {
+    background: url("./images/banner.png") no-repeat center top;
+    height: 300px;
+    background-size: cover;
+}
+
+.container .top {
+    height: 80px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 80px;
+    color: inherit;
+    position: relative;
+}
+
+.top_right {
+    display: inline-block;
+    float: right;
+    position: absolute;
+    top: 0px;
+    right: 20px;
+}
+
+.top_right a:before {
+    clear: both;
+}
+
+.top_right a {
+    font-size: 10px;
+    margin-left: 20px;
+}
+
+.goods {
+    display: inline-block;
+}
+
+.top .rate {
+    position: absolute;
+    background-color: red;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    color: white;
+    font-size: 8px;
+    display: inline-block;
+    line-height: 15px;
+    right: -12px;
+    top: 30px;
+}
+
+.goods > a {
+    text-decoration: none;
+}
+
+.icon1 {
+    display: inline-block;
+    margin-left: -30px;
+}
+.icon1 li{
+    position: relative;
+}
+.icon1 li:hover > .goodscar {
+    opacity: 1;
+    visibility: visible;
+}
+
+.icon1 > li > ul {
+    position: absolute;
+    width: 250px;
+    background-color: white;
+    text-align: center;
+    padding: 10px 15px;
+    top: 70px;
+}
+
+.goodscar {
+    border: 1px solid grey;
+    z-index: 1;
+    opacity: 0;
+    transition: 0.2s all;
+    visibility: hidden;
+}
+
+.icon1 > li > ul > h5 {
+    border-bottom: 1px solid grey;
+    padding: 10px 0;
+}
+
+.box-list {
+
+    font-size: 15px;
+    border-bottom: 1px solid grey;
+}
+
+.right-img {
+    float: left;
+    width: 20%;
+}
+
+.right-img image {
+    border: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.detail-box {
+    float: left;
+    width: 50%;
+    padding-left: 15px;
+    text-align: left;
+
+}
+
+.count {
+    height: 40px;
+    padding: 0 8px 0 0;
+    line-height: 50px;
+}
+
+.name {
+    height: 30px;
+    line-height: 30px;
+
+}
+
+.price {
+    padding: 0 8px;
+    color: red;
+}
+
+.cloes-box {
+    float: right;
+    width: 20%;
+}
+
+.cloes-box .closeimg {
+
+    margin-top: -38px;
+    margin-right: 6px;
+}
+
+div.total {
+    background-color: #ddd;
+    font-size: 10px;
+    height: 45px;
+    line-height: 45px;
+    margin-top: 8px;
+    text-align: left;
+}
+
+.span-total {
+    text-align: left;
+}
+
+.span-price {
+    float: right;
+    color: red;
+}
+
+.box-bottom {
+    padding: 8px 0;
+}
+
+.box-bottom input {
+    width: 40px;
+    height: 25px;
+    background-color: black;
+    border: none;
+    color: white;
+}
+
+.jiesuan {
+    float: left;
+}
+
+.dl {
+    float: right;
+}
+
+.icon1 > li {
+    list-style: none;
+    position: relative;
+}
+
+.container .contact {
+    position: relative;
+    height: 80px;
+    width: 80%;
+    background-color: rgba(174, 123, 0, 0.57);
+    line-height: 80px;
+    text-align: center;
+    top: -70px;
+    z-index: 9999;
+}
+
+.contact ul {
+    display: inline-block;
+    margin: auto;
+    height: 100%;
+
+}
+
+.contact ul li {
+    float: left;
+    list-style: none;
+    margin: 0px 15px;
+
+}
+
+.contact ul li:hover {
+    color: red;
+
+}
+
+.cancel {
+    position: absolute;
+    display: inline-block;
+    left: 15px;
+    top: -20px;;
+}
+.about_top{
+    padding: 40px 0;
+}
+.bar-top{
+    padding:0 0 0 20px;
+    font-size: 18px;
+}
+.bar-ul{
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.bar-ul li{
+    list-style: none;
+    font-weight: 700;
+    padding: 15px 15px;
+
+}
+.top li{
+    list-style: none;
+    float: left;
+    font-size: 13px;
+    padding: 0 30px 0 0;
+}
+.first{
+    font-weight: 700;
+}
+.bar-right>.left-img{
+    padding-top: 30px;
+    float: left;
+}
+.left-img .bimg{
+  border: 1px solid grey;
+    width: 300px;
+    height: 400px;
+}
+.sigms{
+    padding-top: 10px;
+}
+.sigms .pic{
+    margin-left: 8px;
+    height: 115px;
+    width: 86px;
+    float: left;
+    border: 1px solid grey;
+}
+.right-content{
+    float: left;
+    padding: 30px 30px;
+}
+.right-content .title{
+    font-size: 16px;
+    font-weight: 700;
+}
+div.pd{
+    padding-bottom: 20px;
+}
+.right-content .yunlai{
+    text-decoration: line-through;
+    font-size: 20px;
+    padding-right: 20px;
+}
+.right-content .now{
+    color: red;
+    font-size: 20px;
+    padding-right: 20px;
+}
+.chicun ul{
+    padding-left: 0px; ;
+}
+.chicun li{
+
+    list-style: none;
+    float: left;
+    padding: 5px 12px;
+}
+.chicun li:focus{
+  color: red;
+    /*list-style: none;*/
+    /*float: left;*/
+    /*padding: 5px 12px;*/
+}
+.cd ul{
+    padding-left: 0px ;
+}
+.cd li{
+    float: left;
+    list-style: none;
+    padding-right: 20px; ;
+}
+.num select{
+    /*width: 45px;*/
+    /*height: 45px;*/
+    font-size: 1em;
+    padding: 8px 8px;
+}
+.btn-form{
+    margin-top: 15px;
+}
+.btn-form button{
+    padding: 15px 25px;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    border: none;
+}
